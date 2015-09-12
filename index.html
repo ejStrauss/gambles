@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type='text/css' rel='stylesheet' href='gamble.css'>
+    <script type='text/javascript'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src='gamble.js'></script>
+    <title>Gamble, Gamble, die!</title>
+  </head>
+  <body>
+    <section id='song'>
+      <audio id='eulogy' src='eulogy.wav' type='audio/wav'></audio>
+      <img id='wallPic' src='images/wallpaper.jpg' />
+    </section>
+    <section id='gameIntro'>
+      <h1 id='gameName'>Gamble, Gamble, <em>die!</em></h1>
+      <img id='pig' src='images/die.jpg' />
+      <h2 id='pitch'>Have some money, but still want more money?</h2>
+    </section>
+    <article id='story'>
+      <p>Then you may be interested in a little situation of late.<br>There's this headcase name Mopsy, she's a rabbit, and she's always trying to prove herself because she's named after a tool that wipes up vomit.  Most of the other animals cut her some slack because she's small and could never really hurt anyone, but then the day came when Mopsy declared she would not stop playing Bonnie Rait's <em>(let's give 'em) Something To Talk About</em> at max volume until three others in the community agree to race her...<br>To. The. Death.<br>
+      The animals of the forest drew straws and three stepped forth to the starting line, poor devils.<br>All their friends stood by gloomily until the Coyote had the idea to take bets on the winner. Then they cheered up. Please join in by clicking on your racer of choice.</p>
+    </article>
+    <section id='allRacerSects'>
+      <section class='sectTP'>
+        <div id='portraitTP' class='allPortraits'>
+          <button id='seeBioTP' class='allSeeBios' type='button' />
+          <p id='titleTP' class='allTitles'>RACER #1: Timmy Pete the turtle</p>
+          <img id='imgTP' class='allRacerImgs' src='images/timmy.jpg' />
+        </div>
+        <div id='bioTP' class='allBios'>
+          <p id='bioTextTP'>Timmy Pete may be a turtle, but he's<br>got one thing the others don't:<br>crack cocaine.<br>So he may very well be riding a white horse to victory.<br>Or have a heart attack.<br>It's a toughy!</p>
+          <form class='moneyInput'>
+            $<input type='text'><br><br>
+          </form>
+          <button id='betTP' class='allBetChoices' type='button'>Place Bet</button>
+          <button id='addMoneyTP' class='allAdds' type='button'>Agree</button><br>
+          <button id='stayTP' class='allStays' type='button'>I don't care about the less fortunate.</button>
+        </div>
+      </section>
+      <section class='sectM'>
+        <div id='portraitM' class='allPortraits'>
+          <button id='seeBioM' class='allSeeBios' type='button' />
+          <p id='titleM' class='allTitles'>RACER #2: Mopsy the rabbit</p>
+          <img id='imgM' class='allRacerImgs' src='images/mopsy.jpg' />
+        </div>
+        <div id='bioM' class='allBios'>
+          <p id='bioTextM'>Mopsy is a beast.</p>
+          <form class='moneyInput'>
+            $<input type='text'><br><br>
+          </form>
+          <button id='betM' class='allBetChoices' type='button'>Place Bet</button>
+          <button id='addMoneyM' class='allAdds' type='button'>Agree</button><br>
+          <button id='stayM' class='allStays' type='button'>I don't care about the less fortunate.</button>
+        </div>
+      </section>
+      <section class='sectD'>
+        <div id='portraitD' class='allPortraits'>
+          <button id='seeBioD' class='allSeeBios' type='button' />
+          <p id='titleD' class='allTitles'>RACER #3: Deandra the cow</p>
+          <img id='imgD' class='allRacerImgs' src='images/deandra.jpg' />
+        </div>
+        <div id='bioD' class='allBios'>
+          <p id='bioTextD'>Poor large, tender-uttered Deandra can't run so she's just gonna eat grass while slowly moving forward, and if someone gets in her way she'll simply trample them to death. But this threat is nothing new. Deandra's made it clear before, get between her and her dinner/breakfast/lunch and you're dead.<br><em>(RIP Beaver)</em></p>
+          <form class='moneyInput'>
+            $<input type='text'><br><br>
+          </form>
+          <button id='betD' class='allBetChoices' type='button'>Place Bet</button>
+          <button id='addMoneyD' class='allAdds' type='button'>Agree</button><br>
+          <button id='stayD' class='allStays' type='button'>I don't care about the less fortunate.</button>
+        </div>
+      </section>
+      <section class='sectT'>
+        <div id='portraitT' class='allPortraits'>
+          <button id='seeBioT' class='allSeeBios' type='button' />
+          <p id='titleT' class='allTitles'>RACER #4: Tickles the raven</p>
+          <img id='imgT' class='allRacerImgs' src='images/tickles.jpg' />
+        </div>
+        <div id='bioT' class='allBios'>
+          <p id='bioTextT'>Tickles doesn't care about winning the race. What he cares about is eating the eyeballs of his fellow racers,<br>and of that he cares a lot.</p>
+          <form class='moneyInput'>
+            $<input type='text'><br><br>
+          </form>
+          <button id='betT' class='allBetChoices' type='button'>Place Bet</button>
+          <button id='addMoneyT' class='allAdds' type='button'>Agree</button><br>
+          <button id='stayT' class='allStays' type='button'>I don't care about the less fortunate.</button>
+        </div>
+      </section>
+    </section>
+    <section id='postBet'>
+      <div id='newWall'>
+        <img id='shotGun' class='guns' src='images/shotGun.jpg' />
+        <img id='shootGun' class='guns' src='images/shootGun.jpg' />
+        <button id='pullTrigger' type='button' />
+      </div>
+      <div id='slideTP' class='allSlides'>
+        <img src='images/tpWins.jpg' />
+        <p id='slideTPTxt' class='allSlideTexts'>Timmy Pete the turtle died of liver failure, and lost.</p>
+      </div>
+      <div id='slideM' class='allSlides'>
+        <img src='images/mWins.jpg' />
+        <p id='slideMTxt' class='allSlideTexts'>Mopsy the rabbit died of AIDS, and lost.</p>
+      </div>
+      <div id='slideD' class='allSlides'>
+        <img src='images/dWins.jpg' />
+        <p id='slideDTxt' class='allSlideTexts'>Deandra the cow died of black plague, and lost. </p>
+      </div>
+      <div id='slideT' class='allSlides'>
+        <img src='images/tWins.jpg' />
+        <p id='slideTTxt' class='allSlideTexts'>Tickles the raven died of brain explosion, and lost.</p>
+      </div>
+      <div id='slideDie' class='allSlides'>
+        <img src='images/slideDie.jpg' />
+      </div>
+    </section>
+  </body>
+</html>
+

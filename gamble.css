@@ -1,0 +1,218 @@
+
+body{
+  text-align: center;
+  font-family: Goudy Old Style;
+  font-weight: bolder;
+  color: #ccb160;
+}
+#wallPic {
+  z-index: -1;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#gameIntro {
+  width: 100%;
+}
+#gameName {
+  margin: .25em auto .5em auto;
+  font-size: 5em;
+  font-family: Serif;
+}
+#pig {
+  width: 22em;
+  margin-left: -1em;
+  border: .25em solid #110602;
+  border-radius: 50%;
+}
+#pitch {
+  width: 110%;
+  margin-left: -2em;
+  border: .1em solid #342b24;
+  border-right: 0;
+  background-color: #310000;
+  font-size: 2em;
+  font-family: serif;
+}
+#story {
+  width: 31em;
+  margin: auto auto 2em auto;
+  padding-right: 1em;
+  padding-left: 1em;
+  border: .1em solid #342b24;
+  border-radius: 1em;
+  background-color: #0f0000;
+  font-size: 1.3em;
+}
+.allBios {
+  display: none;
+  position: static;
+  width: 24.5em;
+  margin: 1em auto 0 2.5em;
+  padding: 3.5em 1.5em 2em 1.5em;
+  border: .5em solid #0f0000;
+  border-radius: 50%;
+  background-color: #000000;
+  font-size: 1em;
+}
+#allRacerSects {
+  display: inline-block;
+}
+.sectTP {
+  height: 23em;
+  margin: 1em auto 1em auto;
+}
+.sectM {
+  height: 19em;
+  margin: 1em auto 1em auto;
+}
+.sectD {
+  height: 21em;
+  margin: 1em auto 1em auto;
+}
+.sectT {
+  height: 23em;
+  margin: 1em auto 1em auto;
+}
+.allPortraits {
+  display: inline-block;
+  position: relative;
+  width: 25em;
+  margin: auto auto 1.5em auto;
+  border: .25em solid #0f0000;
+  border-radius: 2em;
+  background-color: #310000;
+}
+#portraitTP {
+  height: 21.25em;
+}
+#portraitM {
+  height: 17em;
+}
+#portraitD {
+  height: 18.75em;
+}
+#portraitT {
+  height: 21.25em;
+}
+.allRacerImgs {
+  display: inline-block;
+  position: static;
+  width: 27em;
+  height: auto;
+  border: 1.5em solid #0f0000;
+  border-radius: 60%;
+}
+.allSeeBios {
+  display: inline-block;
+  position: relative;
+  width: 32em;
+  margin-left: -1em;
+  border: none;
+  background-color: transparent;
+}
+#seeBioTP {
+  height: 26em;
+}
+#seeBioM {
+  height: 21em;
+}
+#seeBioD {
+  height: 23.5em;
+}
+#seeBioT {
+  height: 26em;
+}
+.allTitles {
+  display: inline-block;
+  position: relative;
+  margin: auto auto .3em auto;
+  font-family: Goudy Old Style;
+  font-size: 1.25em;
+  font-weight: bolder;
+  color: #ccb160;
+}
+.allBetChoices {
+  background-color:#ccb160;
+  font-weight: bolder;
+  color: #0f0000;
+}
+.allAdds {
+  display: none;
+  margin: 0 .25em .25em .25em;
+  background-color: #0f0000;
+  font-weight: bolder;
+  color: #ccb160;
+}
+.allStays {
+  display: none;
+  margin: 0 .25em .25em .25em;
+  background-color: #0f0000;
+  font-weight: bolder;
+  color: #ccb160;
+}
+#newWall {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: #000300;
+}
+#pullTrigger {
+  display: inline-block;
+  position: fixed;
+  top: 5%;
+  right: 30%;
+  width: 55em;
+  height: 28em;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+.guns {
+  display: inline-block;
+  position: fixed;
+  top: 5%;
+  right: 20%;
+  margin: 3em auto auto 1em;
+}
+.allSlides {
+  z-index: 98;
+  display: inline-block;
+  position: fixed;
+  top: 5%;
+  width: 100%;
+  font-weight: bolder;
+}
+#slideDie img{
+  border: .5em solid #7e4d07;
+}
+.allSlideTexts {
+  z-index: 99;
+  display: inline-block;
+  position: absolute;
+  top: 5em;
+  margin-left: -13em;
+  width: 10em;
+  font-size: 1.25em;
+}
+#slideTPTxt{
+  color: #37241b;
+}
+#slideMTxt{
+  color: #3f0c01;
+}
+#slideDTxt{
+  color: #5b1001;
+}
+#slideTTxt{
+  color: #182704;
+}
+
+
